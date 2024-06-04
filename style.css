@@ -265,8 +265,10 @@ button:hover{
 #title-cpu{
   text-shadow: 2px 2px 4px rgba(255, 0, 0, 0.8); /* Rojo */
    text-align: center;
+  font-size: 14px;
 }
 #title-user{
   text-shadow: 2px 2px 4px rgba(0, 123, 255, 0.8); /* Azul */
    text-align: center;
+  font-size: 14px;
 }
