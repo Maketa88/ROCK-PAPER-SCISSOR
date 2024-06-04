@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ROCK, PAPER, SCISSORS</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet"
+    />
+    <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap"
+    />
+    <link
+        rel="shortcut icon"
+        href="./img/piedra-papel-tijeras.ICO"
+        type="image/x-icon"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <h1 class="titulo1">ROCK, PAPER, SCISSORS</h1>
+    <hr />
+    <div class="reload1">
+        <button id="reload" class="btn" type="button">
+            <strong>RELOAD</strong>
+            <div id="container-stars">
+                <div id="stars"></div>
+            </div>
+            <div id="glow">
+                <div class="circle"></div>
+                <div class="circle"></div>
+            </div>
+        </button>
+    </div>
+    <section class="user">
+        <div class="moverto">
+            <div class="user-title">
+                <h2 class="titulo">GAME RESULT</h2>
+            </div>
+            <article class="contenedor">
+                <article class="usuario">
+                    <h1>USER</h1>
+                    <button id="user" class="inicio1" type="button">0</button>
+                    <div class="manos">
+                        <button class="texto" id="btn-paper" type="button"><img src="./img/hola.png" alt="papel" />PAPER</button>
+                        
+                        <button class="texto"  id="btn-rock" type="button"><img src="./img/puno.png" alt="piedra" />ROCK</button>
+                        <button class="texto"  id="btn-scissors" type="button"><img src="./img/tijeras.png" alt="Tijeras" />SCISSORS</button>
+                    </div>
+                    <h1 id="title-user" class="title-change">HERE IS YOUR CHOICE</h1>
+                    <button  type="button"><img id="userChoice1" src="./img/hola.png" alt="papel" /></button>
+                </article>
+                <article class="usuario">
+                    <h1>CPU</h1>
+                    <button id="cpu" class="inicio2" type="button">0</button>
+                    <div class="manos">
+                        <button class="texto"  type="button"><img src="./img/puno.png" alt="Piedra" />ROCK</button>
+                        <button class="texto" type="button"><img src="./img/hola.png" alt="papel" />PAPER</button>
+                        <button class="texto" type="button"><img src="./img/tijeras.png" alt="Tijeras" />SCISSORS</button>
+                    </div>
+                    <h1 id="title-cpu">THE CPU CHOOSES</h1>
+                    <button  id="jugadacpu" type="button"><img id="cpuChoice" src="./img/hola.png" alt="papel" /></button>
+                </article>
+            </article>
+            <div id="respuesta"></div>
+        </div>
+    </section>
+    <script src="piedra.js"></script>
+</body>
+</html>
