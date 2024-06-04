@@ -206,7 +206,7 @@ strong {
 }
 
 img {
-  max-width: 70px;
+  max-width: 60px;
   
   padding: 10px;
 }
@@ -224,7 +224,7 @@ img {
   text-align: center;
   justify-content: center;
   align-items: center;
-     flex-wrap: nowrap;
+     flex-wrap: wrap;
 }
 .texto{
  display: flex;
