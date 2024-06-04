@@ -46,7 +46,7 @@ function showCpu(cpu) {
     } else if (cpu === 2) {
         return 'CPU CHOOSE PAPER'
     } else {
-        return 'CHOOSE SCISSORS'
+        return 'CPU CHOOSE SCISSORS'
     }
 }
 
@@ -147,7 +147,7 @@ function userPlayPaper() {
 
 function userPlayScissors() {
     const userChoice = 'tijeras'
-    titleuser.textContent = 'CHOOSE SCISSORS'
+    titleuser.textContent = 'USER CHOOSE SCISSORS'
     let cpu = Math.round(getRandomNumber(1, 3))
     let cpuChoice
     if (cpu === 1) {
