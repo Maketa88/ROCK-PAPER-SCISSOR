@@ -29,7 +29,7 @@ function reloadplay() {
     contauser.textContent = 0
     contcpu.textContent = 0
     winner.textContent = ""
-    titleuser.textContent = 'HERE IS YOUR CHOICE'
+    titleuser.textContent = 'THE USER CHOOSES'
     titlecpu.textContent = 'THE CPU CHOOSES'
     userWins = 0
     cpuWins = 0
