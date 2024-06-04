@@ -30,7 +30,7 @@ function reloadplay() {
     contcpu.textContent = 0
     winner.textContent = ""
     titleuser.textContent = 'THE USER CHOOSES'
-    titlecpu.textContent = 'THE CPU CHOOSES'
+    titlecpu.textContent = 'THE C.P.U CHOOSES'
     userWins = 0
     cpuWins = 0
     enableButtons()
